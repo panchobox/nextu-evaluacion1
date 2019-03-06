@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<title>Hoja de vida</title>
+	</head>
+
+	<body>
+		<section>
+			<img src="img/jaam.svg" width="400px" height="200px">
+			<h1>Hoja de Vida</h1>
+			<h2>John Alexander Aguirre Marín</h2>
+			<h3>11 junio 1988, Medellín - Colombia</h3>	
+		</section>	
+		<section>
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li>Educación</a></li>
+				<li><a href="experiencia.html">Experiencia</a></li>
+			</ul>
+		</section>
+		<section>
+			<h2>Educación</h2>
+			<table border="2px">
+			   <tr>
+			       <td>Año</td>
+			       <td>Institución</td>
+			       <td>Lugar</td>
+			       <td>¿Culminó?</td>
+			   </tr>
+			   <tr>
+			       	<td>2014</td>
+			       	<td>Tecnico en Sistemas</td>
+			       	<td>CESDE Medellin</td>
+			       	<td>SI</td>
+			   	</tr>
+			   <tr>
+			       	<td>2015</td>
+			       	<td>ISTQB Fundation</td>
+			       	<td>Medellin</td>
+			       	<td>SI</td>
+			   	</tr>
+			   	<tr>
+			       	<td>2019</td>
+			       	<td>Desarrollo Web</td>
+			       	<td>NEXT U</td>
+			       	<td>NO</td>
+			   	</tr>
+			</table>
+			<br>
+			<form name="formulario" method="post" action="">
+				<fieldset>
+					<legend>Agregar estudios</legend>
+					<br>
+					 Año:
+					<select name="combo">
+					    <!-- Opciones de la lista -->
+					   <option value="1">2022</option>
+					   <option value="2">2021</option>
+					   <option value="3">2020</option>
+					   <option value="1" selected="">2019</option>
+					   <option value="2">2018</option>
+					   <option value="3">2017</option>
+					</select>
+					<br><br>
+					<label>Institución:</label>
+						<input type="text" required>
+					<br><br>
+					<label>Lugar:</label>
+						<input type="textarea">
+					<br><br>
+					<p><input type="submit" value="Registrar"></p>
+				</fieldset>
+			</form>
+			
+		</section>	
+		<footer>
+			<label><a href="https://www.instagram.com/boxpancho/" target="_blank">Sigueme en Instagram</a></label>
+			<label>3164443591</label>
+			<label>johnalexanderaguirre@gmail.com</label>
+		</footer>
+	</body>
+	</html>
